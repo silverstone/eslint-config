@@ -6,6 +6,10 @@ module.exports = {
     'no-unused-vars': 'warn',
     'eol-last': 'off',
     'no-multiple-empty-lines': 'warn',
-    'no-trailing-spaces': 'warn'
+    'no-trailing-spaces': 'warn',
+    'padded-blocks': 'warn',
+    'quotes': 'warn',
+    'indent': 'warn',
+    'no-multi-spaces': 'warn'
   }
 }
