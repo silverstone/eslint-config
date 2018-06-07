@@ -10,6 +10,8 @@ module.exports = {
     'padded-blocks': 'warn',
     'quotes': 'warn',
     'indent': 'warn',
-    'no-multi-spaces': 'warn'
+    'no-multi-spaces': 'warn',
+    'spaced-comment': 'warn',
+    'comma-spacing': 'warn'
   }
 }
