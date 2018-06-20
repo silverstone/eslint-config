@@ -4,18 +4,15 @@ This is a configuration for ESLint which is meant to focus on warnings rather th
 
 ## Installation
 
-First, run `eslint --init` in your project directory.
+First, install this package globally to use the installer:
 
-When the prompts show up, choose `Use a popular style guide`, then `Standard`, then `JSON`
-
-Then install our config to `devDependencies`:
 ```bash
-$ npm install @silverstone/eslint-config --save-dev
+npm i -g @silverstone/eslint-config
 ```
 
-Finally, edit the config file in your project directory called `.eslintrc.json` to just this:
-```json
-{
-    "extends": "@silverstone"
-}
+Now, you can run the install command (`ss-install-eslint`) in any project directory to automagically set up ESLint:
+
+```bash
+cd /path/to/project
+ss-install-eslint
 ```
