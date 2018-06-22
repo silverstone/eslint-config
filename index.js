@@ -12,6 +12,8 @@ module.exports = {
     'indent': 'warn',
     'no-multi-spaces': 'warn',
     'spaced-comment': 'warn',
-    'comma-spacing': 'warn'
+    'comma-spacing': 'warn',
+    'no-throw-literal': 'off',
+    'semi': 'warn'
   }
 }
